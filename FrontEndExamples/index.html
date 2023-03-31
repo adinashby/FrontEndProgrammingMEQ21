@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <title>Vanier Website</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Vanier College Website" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="Adin Ashby" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
   <body>
     <main>
       <section>
@@ -30,6 +38,30 @@
         </ol>
       </section>
       <section>
+        <form action="/user-info">
+          <fieldset>
+            <legend>User info</legend>
+            <label for="firstname">First name: </label>
+            <input
+              id="firstname"
+              name="firstname"
+              type="text"
+              placeholder="James"
+            />
+            <br /><br />
+            <label for="lastname">Last name: </label>
+            <input
+              id="lastname"
+              name="lastname"
+              type="text"
+              placeholder="Smith"
+            />
+            <br /><br />
+            <button type="submit">Submit</button>
+          </fieldset>
+        </form>
+      </section>
+      <section>
         <figure>
           <img
             src="https://hips.hearstapps.com/hmg-prod/images/cute-cat-photos-1593441022.jpg?crop=1.00xw:0.753xh;0,0.153xh&resize=1200:*"
@@ -39,6 +71,9 @@
         </figure>
         <img src="dog.jpg" alt="cute dog" />
       </section>
+      <footer>
+        <p>Author: Adin Ashby</p>
+      </footer>
     </main>
   </body>
 </html>
